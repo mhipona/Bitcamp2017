@@ -43,10 +43,48 @@ for (var i = 0; i < length; i++) {
     document.body.style.backgroundImage = "url('https://media1.giphy.com/media/gGs07Iz8IfiE0/giphy.gif')";
  }
 
- for (var i = 0; i < length; i++) {
-    words[i].src = "dank";
- }
+
 
 function getRandomImage(imageArray) {
-  	return (Math.random() * imageArray.length);
+  	return Math.floor(Math.random() * imageArray.length);
 }
+
+
+var elements = document.getElementsByTagName('*');
+
+for (var i = 0; i < elements.length; i++) {
+    var element = elements[i];
+
+    for (var j = 0; j < element.childNodes.length; j++) {
+        var node = element.childNodes[j];
+
+        if (node.nodeType === 3) {
+            var text = node.nodeValue;
+            var replacedText = text.replace(/Trump/gi, 'dank');
+
+            if (replacedText !== text) {
+                element.replaceChild(document.createTextNode(replacedText), node);
+            }
+        }
+    }
+}
+
+// function replaceWords(elements) {
+// 	for (var i = 0; i < elements.length; i++) {
+// 		var element = elements[i];
+		
+// 		for (var j = 0; j < word.childNodes.length; j++) {
+// 			var node = element.childNodes[j];
+			
+// 			if (node.nodeType === 3) {
+// 				var text = node.nodeValue;
+// 				var replacedText = text.replace(/\bTrump\b, 'dank');
+
+// 				if (replacedText !== text) {
+//                 	element.replaceChild(document.createTextNode(replacedText), node);
+// 				}
+
+// 			}
+// 		}	
+// 	}
+// }
