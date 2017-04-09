@@ -96,23 +96,3 @@ for (var i = 0; i < elements.length; i++) {
         }
     }
 }
-
-// function replaceWords(elements) {
-// 	for (var i = 0; i < elements.length; i++) {
-// 		var element = elements[i];
-		
-// 		for (var j = 0; j < word.childNodes.length; j++) {
-// 			var node = element.childNodes[j];
-			
-// 			if (node.nodeType === 3) {
-// 				var text = node.nodeValue;
-// 				var replacedText = text.replace(/\bTrump\b, 'dank');
-
-// 				if (replacedText !== text) {
-//                 	element.replaceChild(document.createTextNode(replacedText), node);
-// 				}
-
-// 			}
-// 		}	
-// 	}
-// }
