@@ -33,8 +33,6 @@ var memes = [
 	'https://m.popkey.co/e970db/LWqyp.gif',
 	'https://s-media-cache-ak0.pinimg.com/originals/51/67/06/51670674e34e8d40da4d4eedc07d4bea.gif',
 	'http://acidcow.com/pics/20111026/hilarious_drunk_and_wasted_people_32.gif',
-
-
 	'http://img1.izismile.com/img/img5/20120406/1000/hilarious_obama_animated_gifs_07.gif',
 	'http://reblog-gif.tumblr.com/post/69741631033/http-reblog-gif-tumblr-com',
 	'https://media.giphy.com/media/l46Ck8SQ1H26sRMkg/giphy.gif',
@@ -68,7 +66,7 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-            var replacedText = text.replace(/./gi, 'dank');
+			var replacedText = text.replace(/the/gi, '( ͡° ͜ʖ ͡°)');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
