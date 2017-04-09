@@ -1,4 +1,4 @@
-# Bitcamp2017
+# Meme-ify
 
 Ever have one of those moments where you're just scrolling through the web and suddenly realize, "dang, my life really is so not dank enough." That can be a sad feeling, but don't worry with Meme-ify, you never have to experience those moments again! In just a click of a mouse, you can turn your whole page dank!
 
