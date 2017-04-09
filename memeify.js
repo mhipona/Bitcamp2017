@@ -38,7 +38,29 @@ var memes = [
 	'https://media.giphy.com/media/l46Ck8SQ1H26sRMkg/giphy.gif',
 	'https://media.giphy.com/media/7VvnIm3TbXcJO/giphy.gif',
 	'https://33.media.tumblr.com/5c5e1cfea31f1d6e490cc00581d95179/tumblr_mvg6t3TnPO1sig9gio1_400.gif',
-
+	'http://i.imgur.com/7wjjB5a.gif',
+	'https://img.memesuper.com/2a5cac063e237c34b379c42287494b28_patrick-star-meme-gif-meme-gifs_498-298.gif',
+	'https://media.tenor.co/images/f72dfd15ebe72fedd7d3aa10359f211b/tenor.gif',
+	'https://m.popkey.co/49397b/J6QL6_s-200x150.gif',
+	'https://media.tenor.co/images/3d4747d808946c00e660b544b18c41fe/tenor.gif',
+	'http://i1.kym-cdn.com/photos/images/newsfeed/000/248/056/375.gif',
+	'http://media.giphy.com/media/12WdA5ngyLO90Y/giphy.gif',
+	'https://media.giphy.com/media/YBFKy5WgEK7MQ/giphy.gif',
+	'https://s-media-cache-ak0.pinimg.com/originals/b2/55/27/b2552714975abbbca7af3fc81c16b4ac.gif',
+	'http://vignette3.wikia.nocookie.net/meme/images/1/14/BRBR_HUEHEUHEU_GIF.gif/revision/latest?cb=20130510052058',
+	'https://s-media-cache-ak0.pinimg.com/originals/68/61/77/686177c0c85e01b427293571f0df47e7.jpg',
+	'https://img.memesuper.com/e34fb3272a5f5c534c32dfd48a4aafe8_funny-troll-gifs-find-meme-lol-gif_350-300.gif',
+	'https://19818-presscdn-pagely.netdna-ssl.com/wp-content/uploads/067/5e/whiguyblink.gif',
+	'http://a.fod4.com/misc/Squidward%20Twerk.gif',
+	'https://media.giphy.com/media/26tPhnCcoLrhG1CYE/giphy.gif',
+	'https://s-media-cache-ak0.pinimg.com/originals/11/ad/b9/11adb96c3572045c6b887f9004f13ae4.jpg',
+	'http://img.memecdn.com/I-whip-my-bear-back-and-forth_o_129740.gif',
+	'https://img.wonkette.com/wp-content/uploads/2015/10/kermit.gif',
+	'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLxby2D7riOEUvWbMCPWdOZ5A7JXYadsqftZ_ib4YKelWYOc6s',
+	'https://img.memesuper.com/78c73cc758bf8d40bd99790ac6fcad36_meme-gif-lol-y-yao-ming-by-meme-lol-gif_640-360.gif',
+	'http://24.media.tumblr.com/tumblr_medaqyYb8T1qj9xato1_250.gif',
+	'https://img.memesuper.com/29d48f5a289fad44ce32220477e44d40_-para-gifs-memes-naruto-2-meme-gifs_1000-1018.gif',
+	'https://s-media-cache-ak0.pinimg.com/originals/21/19/cb/2119cb3345aea8e4dafc6311a4a410a1.gif'
 
 ];
 
