@@ -1,4 +1,5 @@
-var rng = Math.floor(Math.random() * 3);
+
+var rng = Math.floor(Math.random() * 8);
 var audio = new Audio("/Music/"+ rng +".mp3");
 audio.play();
 
