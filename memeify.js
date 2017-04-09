@@ -66,7 +66,7 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-			var replacedText = text.replace(/the/gi, '( ͡° ͜ʖ ͡°)');
+			var replacedText = text.replace(/the/gi, 'MLG 360 No scope 420 Blaze It');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
