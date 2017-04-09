@@ -3,7 +3,7 @@
 
   "name": "Meme-ify Extension",
   "description": "This extension will make the current page dank",
-  "version": "1.0",
+  "version": "2.0",
 
   "browser_action": {
    "default_icon": "meme.png",
