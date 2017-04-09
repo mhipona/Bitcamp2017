@@ -1,8 +1,7 @@
-var audio = new Audio('allstar.mp3');
-audio.play();
-var start = document.getElementById('start');
-var stop = document.getElementById('stop');
 
+var rng = Math.floor(Math.random() * 3);
+var audio = new Audio("/Music/"+ rng +".mp3");
+audio.play();
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -16,5 +15,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
   }, false);
 }, false);
-
-
