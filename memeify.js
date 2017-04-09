@@ -32,8 +32,16 @@ var memes = [
 	'http://cdn2-www.craveonline.com/assets/mandatory/legacy/2016/03/man_file_1065676_962755.gif',
 	'https://m.popkey.co/e970db/LWqyp.gif',
 	'https://s-media-cache-ak0.pinimg.com/originals/51/67/06/51670674e34e8d40da4d4eedc07d4bea.gif',
-	'https://s-media-cache-ak0.pinimg.com/originals/09/65/1b/09651bb32e3932f2cf4b55dab8c16db6.gif',
-	'http://acidcow.com/pics/20111026/hilarious_drunk_and_wasted_people_32.gif'
+	'http://acidcow.com/pics/20111026/hilarious_drunk_and_wasted_people_32.gif',
+
+
+	'http://img1.izismile.com/img/img5/20120406/1000/hilarious_obama_animated_gifs_07.gif',
+	'http://reblog-gif.tumblr.com/post/69741631033/http-reblog-gif-tumblr-com',
+	'https://media.giphy.com/media/l46Ck8SQ1H26sRMkg/giphy.gif',
+	'https://media.giphy.com/media/7VvnIm3TbXcJO/giphy.gif',
+	'https://33.media.tumblr.com/5c5e1cfea31f1d6e490cc00581d95179/tumblr_mvg6t3TnPO1sig9gio1_400.gif',
+
+
 ];
 
 
@@ -60,7 +68,7 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-            var replacedText = text.replace(/Trump/gi, 'dank');
+            var replacedText = text.replace(/./gi, 'dank');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
