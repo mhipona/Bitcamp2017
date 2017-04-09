@@ -1,12 +1,10 @@
 /* Where the magic happens */
-
+var audio = new Audio('allstar.mp3');
 /* Implements the button */
 document.addEventListener('DOMContentLoaded', function() {
   var checkPageButton = document.getElementById('memePage');
   checkPageButton.addEventListener('click', function() {
-  	var myAudio = new Audio();        // create the audio object
-	myAudio.src = "allstar.mp3"; // assign the audio file to its src
-	myAudio.play(); 
+
   	
     
   }, false);
